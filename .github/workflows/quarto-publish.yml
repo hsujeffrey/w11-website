@@ -29,7 +29,10 @@ jobs:
             "lubridate",
             "scales",
             "gt",
-            "janitor"
+            "janitor",
+            "readr",
+            "dplyr",
+            "ggplot2"
           ), repos = "https://cloud.r-project.org")'
 
       - name: Render site
