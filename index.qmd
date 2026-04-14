@@ -1,0 +1,54 @@
+---
+title: "Jeffrey Hsu"
+subtitle: "MS in Digital Marketing | Marketing Analytics and Strategy"
+about:
+  template: jolla
+  image: "Jeffrey Hsu Passport Photo (PRINTED).png"
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/hsujeffrey
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/
+format: html
+---
+
+I am currently pursuing a **Master of Science in Digital Marketing** at **Cal Poly Pomona**, where I am building skills in marketing analytics, dashboards, digital strategy, and data storytelling.
+
+## Career Aspirations
+
+My goal is to build a career in **marketing analytics and digital strategy**, where I can combine data analysis with business decision-making. I am particularly interested in roles that involve performance marketing, content strategy, and data-driven optimization.
+
+I want to work in an environment where I can:
+- Analyze marketing performance data to drive decisions  
+- Build dashboards and reports that influence strategy  
+- Use tools like R, Quarto, and analytics platforms to improve business outcomes  
+
+## Skills
+
+### Marketing & Analytics
+- KPI analysis and performance tracking  
+- Content and social media analysis  
+- Campaign evaluation and optimization  
+
+### Technical Skills
+- R programming (data cleaning, modeling, visualization)  
+- Quarto (dashboards and website publishing)  
+- Data visualization and reporting  
+
+### Communication
+- Translating data into actionable insights  
+- Presenting findings to non-technical audiences  
+- Structuring analysis into clear business narratives  
+
+## Education
+
+**California State Polytechnic University, Pomona**  
+Master of Science in Digital Marketing  
+
+## Experience
+
+Through my coursework and projects, I have developed experience creating dashboards, analyzing content performance, and presenting insights in a professional format.
