@@ -1,59 +1,96 @@
 ---
-title: "Shiny App: ODI Grips Content Explorer"
-format: html
+title: "Shinylive vs Traditional Shiny"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
 ---
 
-# Project 2: Interactive Shiny App
+# What Is Shinylive?
 
-## Project Overview
+Shinylive is a way to run Shiny apps directly in a web browser without needing a server. Instead of hosting the app on a platform like shinyapps.io, the app runs entirely on the client side using WebAssembly.
 
-This Shiny app was built to provide an interactive way to explore ODI Grips Instagram performance data. Unlike the static dashboard from Project 1, this app allows users to dynamically filter and analyze the data based on their own interests.
+This means the app can be embedded directly into a website while still remaining interactive.
 
-The goal of the app is to help users understand how content strategy decisions affect performance across different metrics such as reach, engagement, and follower growth.
+---
 
-## Why Use a Shiny App?
+## Traditional Shiny vs Shinylive
 
-A static dashboard is useful for showing overall trends, but it limits the user to a fixed view of the data. In contrast, a Shiny app allows users to:
+::: {.callout-note}
+**Core Difference:**  
+Traditional Shiny requires a server. Shinylive runs entirely in the browser.
+:::
 
-- filter by date range  
-- choose different performance metrics  
-- compare media types  
-- compare caption strategies  
-- explore top-performing posts  
+### Traditional Shiny
+- Requires a server (e.g., shinyapps.io)  
+- Processes user input on the server  
+- Supports complex computations and larger datasets  
 
-This makes the analysis more flexible and more valuable for decision-making.
+### Shinylive
+- No server required  
+- Runs entirely in the browser  
+- Designed for lightweight, shareable apps  
 
-## Data Used
+---
 
-The app uses ODI Grips Instagram post-level data, including:
+## Advantages of Shinylive
 
-- posting date  
-- media type  
-- caption type  
-- reach and engagement metrics  
-- follower growth  
-- engagement rate  
+::: {.callout-tip}
+Shinylive simplifies deployment and reduces friction for smaller projects.
+:::
 
-These variables allow users to explore how different content strategies are associated with different outcomes.
+- **No hosting required**  
+  Can be deployed as part of a static website  
 
-## What the App Does
+- **Lower cost**  
+  No need to pay for server infrastructure  
 
-The app includes several interactive components:
+- **Easy to share**  
+  Can be embedded directly into a webpage  
 
-- **KPI summary boxes** that update based on filters  
-- **trend analysis** showing how performance changes over time  
-- **media type comparison** to evaluate which formats perform best  
-- **caption type comparison** to analyze messaging strategy  
-- **top posts table** to identify the highest-performing content  
+- **Fast for simple apps**  
+  Runs locally in the browser  
 
-Users can adjust filters and immediately see how results change, making the app more useful than a static report.
+---
 
-## Key Insight
+## Limitations of Shinylive
 
-The main takeaway from this app is that Instagram performance is not driven by one single strategy. Performance varies based on content format, caption approach, and timing, and these relationships become clearer when users interact with the data directly.
+::: {.callout-warning}
+Shinylive is not a replacement for full-scale Shiny applications.
+:::
 
-## Live Shiny App
+- **Limited scalability**  
+  Not ideal for large datasets  
 
-You can access the full interactive app here:
+- **Performance constraints**  
+  Browser execution is less powerful than a server  
 
-[ODI Grips Shiny App](https://50kzbk-jeffrey-hsu.shinyapps.io/shiny_app/)
+- **Package limitations**  
+  Not all R packages are supported  
+
+- **Less flexibility**  
+  Advanced features are harder to implement  
+
+---
+
+## When to Use Each Approach
+
+### Use Shinylive When:
+- building lightweight apps  
+- creating portfolios or demos  
+- sharing simple interactive analyses  
+- teaching or presenting concepts  
+
+### Use Traditional Shiny When:
+- working with large datasets  
+- building production-level applications  
+- needing full R package support  
+- requiring advanced interactivity  
+
+---
+
+## Final Takeaway
+
+Shinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.
+
+Choosing between the two depends on the size, complexity, and purpose of the project.
