@@ -1,0 +1,59 @@
+---
+title: "Shiny App: ODI Grips Content Explorer"
+format: html
+---
+
+# Project 2: Interactive Shiny App
+
+## Project Overview
+
+This Shiny app was built to provide an interactive way to explore ODI Grips Instagram performance data. Unlike the static dashboard from Project 1, this app allows users to dynamically filter and analyze the data based on their own interests.
+
+The goal of the app is to help users understand how content strategy decisions affect performance across different metrics such as reach, engagement, and follower growth.
+
+## Why Use a Shiny App?
+
+A static dashboard is useful for showing overall trends, but it limits the user to a fixed view of the data. In contrast, a Shiny app allows users to:
+
+- filter by date range  
+- choose different performance metrics  
+- compare media types  
+- compare caption strategies  
+- explore top-performing posts  
+
+This makes the analysis more flexible and more valuable for decision-making.
+
+## Data Used
+
+The app uses ODI Grips Instagram post-level data, including:
+
+- posting date  
+- media type  
+- caption type  
+- reach and engagement metrics  
+- follower growth  
+- engagement rate  
+
+These variables allow users to explore how different content strategies are associated with different outcomes.
+
+## What the App Does
+
+The app includes several interactive components:
+
+- **KPI summary boxes** that update based on filters  
+- **trend analysis** showing how performance changes over time  
+- **media type comparison** to evaluate which formats perform best  
+- **caption type comparison** to analyze messaging strategy  
+- **top posts table** to identify the highest-performing content  
+
+Users can adjust filters and immediately see how results change, making the app more useful than a static report.
+
+## Key Insight
+
+The main takeaway from this app is that Instagram performance is not driven by one single strategy. Performance varies based on content format, caption approach, and timing, and these relationships become clearer when users interact with the data directly.
+
+## Live Shiny App
+
+You can access the full interactive app here:
+
+[ODI Grips Shiny App](https://50kzbk-jeffrey-hsu.shinyapps.io/shiny_app/)
