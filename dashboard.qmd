@@ -1,52 +1,4 @@
 ---
-title: "W10-Dashboards Assignment"
-subtitle: "ODI Grips Instagram Dashboard Projects"
-author: "Jeffrey Hsu"
-date: today
-format:
-  html:
-    toc: true
-    toc-depth: 3
-    toc-expand: true
-    embed-resources: true
-    theme: cosmo
-    code-fold: true
-execute:
-  echo: true
-  warning: false
-  message: false
-editor: source
----
-
-# Overview
-
-This assignment includes two dashboard projects built from the ODI Grips Instagram dataset. Project 1 is a static Quarto dashboard designed to summarize overall Instagram performance. Project 2 is an interactive Shiny app designed to let users explore how performance changes across date ranges, content dimensions, and marketing metrics. This report includes the project descriptions, data descriptions, source code, findings, chart interpretations, and deployment links for both projects.
-
-# Project 1
-
-## Project Description
-
-Project 1 is a static dashboard built in Quarto. The goal of this dashboard is to present a clear overview of ODI Grips’ Instagram performance to an audience that may not have prior knowledge of the brand or dataset. The story focuses on overall account performance, monthly engagement trends, media format performance, caption strategy performance, and the top-performing posts.
-
-## Data Description
-
-The dataset contains ODI Grips Instagram post-level performance data. Key variables used in this dashboard include:
-
-- `post_date`: date of the Instagram post
-- `media_type`: type of media used in the post
-- `caption_type`: category of caption strategy used
-- `reach`: number of accounts reached
-- `likes`, `comments`, `shares`, `saves`: engagement metrics
-- `follows`: number of follows generated
-- `engagement_rate`: engagement relative to reach or audience
-
-The dashboard uses these variables to summarize performance across time and content strategy.
-
-````qmd
-## R Code
-
-````r
----
 title: "ODI Grips Instagram Performance Dashboard"
 subtitle: "Static Dashboard – Project 1"
 format:
@@ -234,11 +186,3 @@ top_posts |>
     decimals = 0
   )
 ```
-
-## Row
-
-### Key Takeaways
-
-ODI Grips’ Instagram performance is uneven across content types, with certain media formats and caption strategies consistently outperforming others. Engagement also changes over time, which suggests content timing and content structure both matter.
-
-The dashboard suggests that ODI should prioritize the formats and caption strategies that already show strong reach and engagement rather than spreading effort evenly across all post types.
