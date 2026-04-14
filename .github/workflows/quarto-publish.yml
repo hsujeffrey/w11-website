@@ -1,26 +1,26 @@
-name: Quarto Publish
+project:
+  type: website
+  output-dir: docs
 
-on:
-  push:
-    branches: [main]
+website:
+  title: "Jeffrey Hsu"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: Quarto Dashboard
+      - href: shiny-app.qmd
+        text: Shiny App
+      - href: shinylive-essay.qmd
+        text: Shinylive Essay
 
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render site
-        run: quarto render
-
-      - name: Publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    toc-expand: true
+    embed-resources: true
+    code-fold: true
+    code-tools: true
