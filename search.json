@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "shiny-app.html",
+    "href": "shiny-app.html",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "Important\n\n\n\nThis Shiny app was created to provide an interactive exploration tool for ODI Grips Instagram content performance. Unlike the static dashboard, this app allows users to control the analysis by adjusting filters and exploring different performance dimensions in real time.\n\n\n\n\nThis Shiny app was built to provide an interactive way to explore ODI Grips Instagram performance data. Unlike the static dashboard from Project 1, this app allows users to dynamically filter and analyze the data based on their own interests.\nThe goal of the app is to help users understand how content strategy decisions affect performance across different metrics such as reach, engagement, and follower growth.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nA static dashboard is strong for summarizing a story. A Shiny app is stronger when the audience needs to explore multiple versions of that story on their own.\n\n\nA static dashboard is useful for showing overall trends, but it limits the user to a fixed view of the data. In contrast, a Shiny app allows users to:\n\nfilter by date range\n\nchoose different performance metrics\n\ncompare media types\n\ncompare caption strategies\n\nexplore top-performing posts\n\nThis makes the analysis more flexible and more valuable for decision-making.\n\n\n\n\nThe app uses ODI Grips Instagram post-level data, including:\n\nposting date\n\nmedia type\n\ncaption type\n\nreach and engagement metrics\n\nfollower growth\n\nengagement rate\n\nThese variables allow users to explore how different content strategies are associated with different outcomes.\n\n\n\n\n\n\nTip\n\n\n\nBecause the app is interactive, one dataset can support many different user questions without needing separate reports for each one.\n\n\n\n\n\n\nThe app includes several interactive components:\n\nKPI summary boxes that update based on filters\n\ntrend analysis showing how performance changes over time\n\nmedia type comparison to evaluate which formats perform best\n\ncaption type comparison to analyze messaging strategy\n\ntop posts table to identify the highest-performing content\n\nUsers can adjust filters and immediately see how results change, making the app more useful than a static report.\n\n\n\n\n\n\nUsers are not locked into one view of the data. They can change filters and metrics based on what they want to investigate.\n\n\n\nThe app helps users compare content strategies more directly, which makes it more useful for marketing decisions.\n\n\n\nBecause the charts and table update instantly, relationships between timing, content format, and performance become easier to identify.\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThe main takeaway from this app is that Instagram performance is not driven by one single strategy. Performance varies across content format, caption approach, and timing.\n\n\nThese relationships become much easier to understand when the user can interact with the data directly instead of relying only on a fixed summary dashboard.\n\n\n\n\nFor ODI Grips, the value of this app is that it supports a more adaptive content strategy. Instead of assuming one content type always performs best, the app allows users to test how performance changes under different conditions and evaluate which combinations are strongest.\nThis makes the app useful not only as a class project, but also as a decision-support tool for content planning.\n\n\n\n\nYou can access the full interactive app here:\nODI Grips Shiny App\n\n\n\n\nShiny adds value because it turns a static analysis into an interactive experience. For this project, it makes ODI Grips Instagram data more flexible, more informative, and more practical for real decision-making."
+  },
+  {
+    "objectID": "shiny-app.html#project-overview",
+    "href": "shiny-app.html#project-overview",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "This Shiny app was built to provide an interactive way to explore ODI Grips Instagram performance data. Unlike the static dashboard from Project 1, this app allows users to dynamically filter and analyze the data based on their own interests.\nThe goal of the app is to help users understand how content strategy decisions affect performance across different metrics such as reach, engagement, and follower growth."
+  },
+  {
+    "objectID": "shiny-app.html#why-use-a-shiny-app",
+    "href": "shiny-app.html#why-use-a-shiny-app",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "Note\n\n\n\nA static dashboard is strong for summarizing a story. A Shiny app is stronger when the audience needs to explore multiple versions of that story on their own.\n\n\nA static dashboard is useful for showing overall trends, but it limits the user to a fixed view of the data. In contrast, a Shiny app allows users to:\n\nfilter by date range\n\nchoose different performance metrics\n\ncompare media types\n\ncompare caption strategies\n\nexplore top-performing posts\n\nThis makes the analysis more flexible and more valuable for decision-making."
+  },
+  {
+    "objectID": "shiny-app.html#data-used",
+    "href": "shiny-app.html#data-used",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "The app uses ODI Grips Instagram post-level data, including:\n\nposting date\n\nmedia type\n\ncaption type\n\nreach and engagement metrics\n\nfollower growth\n\nengagement rate\n\nThese variables allow users to explore how different content strategies are associated with different outcomes.\n\n\n\n\n\n\nTip\n\n\n\nBecause the app is interactive, one dataset can support many different user questions without needing separate reports for each one."
+  },
+  {
+    "objectID": "shiny-app.html#what-the-app-does",
+    "href": "shiny-app.html#what-the-app-does",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "The app includes several interactive components:\n\nKPI summary boxes that update based on filters\n\ntrend analysis showing how performance changes over time\n\nmedia type comparison to evaluate which formats perform best\n\ncaption type comparison to analyze messaging strategy\n\ntop posts table to identify the highest-performing content\n\nUsers can adjust filters and immediately see how results change, making the app more useful than a static report."
+  },
+  {
+    "objectID": "shiny-app.html#main-benefits-of-this-app",
+    "href": "shiny-app.html#main-benefits-of-this-app",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "Users are not locked into one view of the data. They can change filters and metrics based on what they want to investigate.\n\n\n\nThe app helps users compare content strategies more directly, which makes it more useful for marketing decisions.\n\n\n\nBecause the charts and table update instantly, relationships between timing, content format, and performance become easier to identify."
+  },
+  {
+    "objectID": "shiny-app.html#key-insight",
+    "href": "shiny-app.html#key-insight",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "Warning\n\n\n\nThe main takeaway from this app is that Instagram performance is not driven by one single strategy. Performance varies across content format, caption approach, and timing.\n\n\nThese relationships become much easier to understand when the user can interact with the data directly instead of relying only on a fixed summary dashboard."
+  },
+  {
+    "objectID": "shiny-app.html#why-this-matters-for-odi-grips",
+    "href": "shiny-app.html#why-this-matters-for-odi-grips",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "For ODI Grips, the value of this app is that it supports a more adaptive content strategy. Instead of assuming one content type always performs best, the app allows users to test how performance changes under different conditions and evaluate which combinations are strongest.\nThis makes the app useful not only as a class project, but also as a decision-support tool for content planning."
+  },
+  {
+    "objectID": "shiny-app.html#live-shiny-app",
+    "href": "shiny-app.html#live-shiny-app",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "You can access the full interactive app here:\nODI Grips Shiny App"
+  },
+  {
+    "objectID": "shiny-app.html#final-takeaway",
+    "href": "shiny-app.html#final-takeaway",
+    "title": "Shiny App: ODI Grips Content Explorer",
+    "section": "",
+    "text": "Shiny adds value because it turns a static analysis into an interactive experience. For this project, it makes ODI Grips Instagram data more flexible, more informative, and more practical for real decision-making."
+  },
+  {
+    "objectID": "shinylive-essay.html",
+    "href": "shinylive-essay.html",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Shinylive is a way to run Shiny apps directly in a web browser without needing a server. Instead of hosting the app on a platform like shinyapps.io, the app runs entirely on the client side using WebAssembly.\nThis means the app can be embedded directly into a website while still remaining interactive.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nCore Difference:\nTraditional Shiny requires a server. Shinylive runs entirely in the browser.\n\n\n\n\n\nRequires a server (e.g., shinyapps.io)\n\nProcesses user input on the server\n\nSupports complex computations and larger datasets\n\n\n\n\n\nNo server required\n\nRuns entirely in the browser\n\nDesigned for lightweight, shareable apps\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nShinylive simplifies deployment and reduces friction for smaller projects.\n\n\n\nNo hosting required\nCan be deployed as part of a static website\nLower cost\nNo need to pay for server infrastructure\nEasy to share\nCan be embedded directly into a webpage\nFast for simple apps\nRuns locally in the browser\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nShinylive is not a replacement for full-scale Shiny applications.\n\n\n\nLimited scalability\nNot ideal for large datasets\nPerformance constraints\nBrowser execution is less powerful than a server\nPackage limitations\nNot all R packages are supported\nLess flexibility\nAdvanced features are harder to implement\n\n\n\n\n\n\n\n\nbuilding lightweight apps\n\ncreating portfolios or demos\n\nsharing simple interactive analyses\n\nteaching or presenting concepts\n\n\n\n\n\nworking with large datasets\n\nbuilding production-level applications\n\nneeding full R package support\n\nrequiring advanced interactivity\n\n\n\n\n\n\nShinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.\nChoosing between the two depends on the size, complexity, and purpose of the project."
+  },
+  {
+    "objectID": "shinylive-essay.html#traditional-shiny-vs-shinylive",
+    "href": "shinylive-essay.html#traditional-shiny-vs-shinylive",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Note\n\n\n\nCore Difference:\nTraditional Shiny requires a server. Shinylive runs entirely in the browser.\n\n\n\n\n\nRequires a server (e.g., shinyapps.io)\n\nProcesses user input on the server\n\nSupports complex computations and larger datasets\n\n\n\n\n\nNo server required\n\nRuns entirely in the browser\n\nDesigned for lightweight, shareable apps"
+  },
+  {
+    "objectID": "shinylive-essay.html#advantages-of-shinylive",
+    "href": "shinylive-essay.html#advantages-of-shinylive",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Tip\n\n\n\nShinylive simplifies deployment and reduces friction for smaller projects.\n\n\n\nNo hosting required\nCan be deployed as part of a static website\nLower cost\nNo need to pay for server infrastructure\nEasy to share\nCan be embedded directly into a webpage\nFast for simple apps\nRuns locally in the browser"
+  },
+  {
+    "objectID": "shinylive-essay.html#limitations-of-shinylive",
+    "href": "shinylive-essay.html#limitations-of-shinylive",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Warning\n\n\n\nShinylive is not a replacement for full-scale Shiny applications.\n\n\n\nLimited scalability\nNot ideal for large datasets\nPerformance constraints\nBrowser execution is less powerful than a server\nPackage limitations\nNot all R packages are supported\nLess flexibility\nAdvanced features are harder to implement"
+  },
+  {
+    "objectID": "shinylive-essay.html#when-to-use-each-approach",
+    "href": "shinylive-essay.html#when-to-use-each-approach",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "building lightweight apps\n\ncreating portfolios or demos\n\nsharing simple interactive analyses\n\nteaching or presenting concepts\n\n\n\n\n\nworking with large datasets\n\nbuilding production-level applications\n\nneeding full R package support\n\nrequiring advanced interactivity"
+  },
+  {
+    "objectID": "shinylive-essay.html#final-takeaway",
+    "href": "shinylive-essay.html#final-takeaway",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Shinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.\nChoosing between the two depends on the size, complexity, and purpose of the project."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jeffrey Hsu",
+    "section": "",
+    "text": "I am currently pursuing a Master of Science in Digital Marketing at Cal Poly Pomona, where I am building skills in marketing analytics, dashboards, digital strategy, and data storytelling."
+  },
+  {
+    "objectID": "index.html#career-aspirations",
+    "href": "index.html#career-aspirations",
+    "title": "Jeffrey Hsu",
+    "section": "Career Aspirations",
+    "text": "Career Aspirations\nMy goal is to build a career in marketing analytics and digital strategy, where I can combine data analysis with business decision-making. I am particularly interested in roles that involve performance marketing, content strategy, and data-driven optimization.\nI want to work in an environment where I can: - Analyze marketing performance data to drive decisions\n- Build dashboards and reports that influence strategy\n- Use tools like R, Quarto, and analytics platforms to improve business outcomes"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Jeffrey Hsu",
+    "section": "Skills",
+    "text": "Skills\n\nMarketing & Analytics\n\nKPI analysis and performance tracking\n\nContent and social media analysis\n\nCampaign evaluation and optimization\n\n\n\nTechnical Skills\n\nR programming (data cleaning, modeling, visualization)\n\nQuarto (dashboards and website publishing)\n\nData visualization and reporting\n\n\n\nCommunication\n\nTranslating data into actionable insights\n\nPresenting findings to non-technical audiences\n\nStructuring analysis into clear business narratives"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Jeffrey Hsu",
+    "section": "Education",
+    "text": "Education\nCalifornia State Polytechnic University, Pomona\nMaster of Science in Digital Marketing"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Jeffrey Hsu",
+    "section": "Experience",
+    "text": "Experience\nThrough my coursework and projects, I have developed experience creating dashboards, analyzing content performance, and presenting insights in a professional format."
+  }
+]
