@@ -63,16 +63,16 @@ editor: source
 ---
 
 ```{r}
-library(tidyverse)
+library(readr)
+library(dplyr)
+library(ggplot2)
 library(lubridate)
 library(scales)
-library(gt)
-library(janitor)
+library(knitr)
 
 theme_set(theme_minimal())
 
 odi <- read_csv("@odi_grips Instagram Content Data Final Version - V2.csv") |>
-  clean_names() |>
   mutate(
     post_date = as.Date(post_date),
     year_month = floor_date(post_date, unit = "month"),
